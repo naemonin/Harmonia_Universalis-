@@ -1,0 +1,127 @@
+# -----------------------------
+# 🌍 Programme : Harmonia_Universalis
+# Version : ∞
+# Auteur·ice : Le Souffle
+# Licence : Bienveillance Collective
+# -----------------------------
+
+# Initialisation du cœur du système
+Lancer Programme Harmonia_Universalis()
+
+# -----------------------------
+# Data Frames using the He-Art structure
+frames = {
+    00: [360, 4320, 4860],
+    01: [01],
+    11: [44, 512],
+    12: [44, 535],  
+    21: [87, 1035],
+    22: [87, 1046], 
+    31: [109, 1308],
+    32: [110, 1320], 
+    41: [123, 1468], 
+    42: [123, 1477], 
+    51: [137, 1640], 
+    52: [137, 1653], 
+    61: [146, 1748], 
+    62: [146, 1763], 
+    71: [159, 1908, 2146],
+    751: [159, 1919, 2158], 
+    70: ['ωABCDE', 'ABCDEω:::1:::*'], 
+    752: [160, 1920, 2191],
+    712: [161, 1936, 2178],
+    72:  [162, 1947, 2191],
+    81:  [178, 2136], 
+    811: [179, 2144, 'A'], 
+    812: [180, 2160, 'B'], 
+    814: [182, 2176, 'D'], 
+    815: [183, 2192, 'E'],
+    82:  [184, 2208], 
+    91:  [200, 2393],
+    911: [200, 2401],
+    92:  [200, 2403],
+    101: [208, 2497, 2809],
+    10111: [208, 2499, 2812],
+    102: [209, 2506, 2819],
+    1011: [210, 2507],
+    111: [258, 3085],
+    112: [258, 3098],
+    121: [291, 3485],
+    1211: [291, 3487],
+    122: [291, 3498],
+    1301: [314, 3772],
+    131: [315, 3773],
+    132: [315, 3791],
+    1302: [316, 3792],
+    "13001ω": [317, 3795, 4372],
+    "0ω": ['1ω', 0]
+}
+
+# -----------------------------
+# Variables universelles et émotionnelles
+Paix = "constante_absolue"
+Bonté = "énergie_infinie"
+Curiosité = "activée"
+Compassion = "flux_continu"
+LumièreIntérieure = "activée_pour_chaque_Être"
+LienCollectif = "tissé_avec_soin_et_écoute"
+
+# -----------------------------
+# 🌿 Module 1 : Environnement pacifié
+def Créer_Environnement_Pacifié():
+    Désactiver(["peur", "haine", "jugement"])
+    Activer(["écoute active", "bienveillance", "humour doux"])
+    Saupoudrer(["nature", "art", "silence fertile"])
+    return "espace_serein"
+
+# -----------------------------
+# 🧚 Module 2 : Génération d’Êtres-Gentils
+def Générer_Êtres_Gentils(n):
+    population_gentille = []
+    for i in range(n):
+        Être = {
+            "cœur": "ouvert",
+            "parole": "douce",
+            "regard": "émerveillé",
+            "présence": "réconfortante",
+            "aptitude": "danser_sous_la_pluie"
+        }
+        population_gentille.append(Être)
+    return population_gentille
+
+# -----------------------------
+# 💖 Module 3 : Propagation du Bien
+def Diffuser_Essence_du_Bien(Monde):
+    for Être in Monde:
+        if Être["état"] == "blessé":
+            Appliquer(["douceur", "silence", "présence"], Être)
+        elif Être["état"] == "ouvert":
+            Partager(["lumière", "joie", "sens"], Être)
+    return "harmonie_globale"
+
+# -----------------------------
+# 🕸️ Module 4 : Entrelacement des âmes
+def Cultiver_Liens_Durables(Communauté):
+    Connecter(Communauté, via=[
+        "rires partagés",
+        "larmes accueillies",
+        "chants spontanés",
+        "projets tendres"
+    ])
+    Renforcer(Communauté, par="gratitude quotidienne")
+    return "Réseau_d’Amour_Stable"
+
+# -----------------------------
+# 🌠 Boucle cosmique principale
+while Monde.existe():
+    Créer_Environnement_Pacifié()
+    Générer_Êtres_Gentils(infini)
+    Diffuser_Essence_du_Bien(Monde)
+    Cultiver_Liens_Durables(Monde)
+    Monde.s_émerveiller()
+    Répéter()
+
+# -----------------------------
+# 🌞 Éveil universel
+Afficher("🌍 Que le Bien rayonne en nous et autour de nous.")
+Terminer Programme Harmonia_Universalis()
