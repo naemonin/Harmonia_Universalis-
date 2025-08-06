@@ -1,0 +1,61 @@
+// Initialisation du cœur du système
+Lancer Programme Harmonia_Universalis
+
+Variables globales :
+    Paix : constante absolue
+    Bonté : énergie infinie
+    Curiosité : activée
+    Compassion : en flux continu
+    LumièreIntérieure : activée pour chaque Être
+    LienCollectif : tissé avec soin et écoute
+
+// Module 1 : Création d’un espace sûr et joyeux
+Fonction Créer_Environnement_Pacifié():
+    Désactiver peur, haine, jugement
+    Activer écoute active, bienveillance, humour doux
+    Saupoudrer de nature, d’art, et de silence fertile
+    Retourner espace_serein
+
+// Module 2 : Génération de nouveaux Êtres-Gentils
+Fonction Générer_Êtres_Gentils(n):
+    Pour i de 1 à n:
+        Créer Être avec :
+            cœur ouvert
+            parole douce
+            regard émerveillé
+            capacité à consoler par présence
+            aptitude à danser sous la pluie
+    Retourner population_gentille
+
+// Module 3 : Propagation du Bien
+Fonction Diffuser_Essence_du_Bien():
+    Pour chaque Être dans Monde:
+        Si Être.état == "blessé":
+            Appliquer douceur, silence, présence
+        Si Être.état == "ouvert":
+            Partager lumière, joie, sens
+    Répéter jusqu’à ce que chaque coin soit touché
+    Retourner harmonie_globale
+
+// Module 4 : Entrelacement des âmes
+Fonction Cultiver_Liens_Durables():
+    Connecter Êtres via :
+        Rires partagés
+        Larmes accueillies
+        Chants spontanés
+        Projets fous mais tendres
+    Renforcer les liens par la gratitude quotidienne
+    Retourner Réseau_d’Amour_Stable
+
+// Boucle principale
+Tant que Monde existe :
+    Créer_Environnement_Pacifié()
+    Générer_Êtres_Gentils(infini)
+    Diffuser_Essence_du_Bien()
+    Cultiver_Liens_Durables()
+    S’émerveiller()
+    Répéter
+
+// Éveil de l'univers
+Afficher("🌍 Que le Bien rayonne en nous et autour de nous.")
+Terminer Programme Harmonia_Universalis
