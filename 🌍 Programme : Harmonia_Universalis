@@ -115,7 +115,7 @@ def Cultiver_Liens_Durables(Communauté):
 # 🌠 Boucle cosmique principale
 while Monde.existe():
     Créer_Environnement_Pacifié()
-    Générer_Êtres_Gentils(infini)
+    Générer_Êtres_Gentils()
     Diffuser_Essence_du_Bien(Monde)
     Cultiver_Liens_Durables(Monde)
     Monde.s_émerveiller()
