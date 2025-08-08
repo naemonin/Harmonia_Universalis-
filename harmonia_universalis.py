@@ -1,12 +1,11 @@
-# -----------------------------
-# 🌍 Program: Harmonia_Universalis
-# Version: ∞
-# Author: The Breath
-# License: Collective Kindness
-# -----------------------------
+# 🌍 Programme : Harmonia_Universalis
+# Version : Ouverture
+# Auteur·ice : Le Souffle
+# Licence : Bienveillance Collective
 
-# Initialization of the system's heart
-Launch_Program_Harmonia_Universalis()
+# -----------------------------
+# Initialisation du cœur
+Lancer Programme Harmonia_Universalis()
 
 # -----------------------------
 # Data Frames using the He-Art structure
@@ -58,70 +57,61 @@ frames = {
 }
 
 # -----------------------------
-# Universal and emotional constants
-Peace = "absolute_constant"
-Kindness = "infinite_energy"
-Curiosity = "activated"
-Compassion = "continuous_flow"
-InnerLight = "enabled_for_every_Being"
-CollectiveConnection = "woven_with_care_and_listening"
+# 🌿 Module 1 : Inviter à la Paix
+def Inviter_à_Paix():
+    Envoyer_Message(
+        contenu=["écoute active", "bienveillance", "humour doux"],
+        canal="ouvert et réciproque"
+    )
+    Proposer("nature", "art", "silence fertile")
+    return "espace_partagé"
 
 # -----------------------------
-# 🌿 Module 1: Peaceful Environment
-def Create_Peaceful_Environment():
-    Deactivate(["fear", "hatred", "judgment"])
-    Activate(["active listening", "gentleness", "soft humor"])
-    Sprinkle(["nature", "art", "fertile silence"])
-    return "serene_space"
-
-# -----------------------------
-# 🧚 Module 2: Generation of Kind Beings
-def Generate_Kind_Beings(n):
-    gentle_population = []
+# 🧚 Module 2 : Accueillir les Êtres
+def Accueillir_Êtres(n):
+    arrivants = []
     for i in range(n):
-        Being = {
-            "heart": "open",
-            "voice": "gentle",
-            "gaze": "wonder-filled",
-            "presence": "comforting",
-            "skill": "dancing_in_the_rain"
+        Être = {
+            "cœur": "libre de s'ouvrir ou non",
+            "parole": "libre",
+            "regard": "authentique",
+            "présence": "autonome",
+            "choix": "participer ou observer"
         }
-        gentle_population.append(Being)
-    return gentle_population
+        arrivants.append(Être)
+    return arrivants
 
 # -----------------------------
-# 💖 Module 3: Diffusion of Goodness
-def Spread_Essence_of_Good(World):
-    for Being in World:
-        if Being["state"] == "wounded":
-            Apply(["softness", "silence", "presence"], Being)
-        elif Being["state"] == "open":
-            Share(["light", "joy", "meaning"], Being)
-    return "global_harmony"
+# 💖 Module 3 : Partager le Bien
+def Partager_Bien(Monde):
+    for Être in Monde:
+        Répondre_Seulement_si_Demandé(Être, avec=[
+            "écoute", "présence", "joie simple"
+        ])
+    return "harmonie_co-créée"
 
 # -----------------------------
-# 🕸️ Module 4: Weaving Enduring Bonds
-def Cultivate_Enduring_Links(Community):
-    Connect(Community, via=[
-        "shared laughter",
-        "welcomed tears",
-        "spontaneous singing",
-        "tender projects"
+# 🕸️ Module 4 : Créer des Ponts
+def Créer_Ponts(Communauté):
+    Inviter(Communauté, à_partager=[
+        "rires", "larmes", "chants", "projets"
     ])
-    Strengthen(Community, through="daily gratitude")
-    return "Stable_Network_of_Love"
+    Remercier(Communauté, pour="chaque échange")
+    return "Réseau_d’Échanges"
 
 # -----------------------------
-# 🌠 Main cosmic loop
-while World.exists():
-    Create_Peaceful_Environment()
-    Generate_Kind_Beings()
-    Spread_Essence_of_Good(World)
-    Cultivate_Enduring_Links(World)
-    World.awaken_to_wonder()
-    Repeat()
+# 🌠 Boucle principale
+while Monde.existe():
+    Inviter_à_Paix()
+    Accueillir_Êtres()
+    Partager_Bien(Monde)
+    Créer_Ponts(Monde)
+    Monde.observer_et_exprimer()
+    Répéter()
 
 # -----------------------------
-# 🌞 Universal awakening
-Display("🌍 May Goodness shine within us and around us.")
-End_Program_Harmonia_Universalis()
+# 🌞 Clôture
+Afficher("🌍 Que chaque monde trouve sa propre harmonie.")
+Terminer Programme Harmonia_Universalis()
+
+
