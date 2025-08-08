@@ -1,61 +1,66 @@
-// Initialisation du cœur du système
-Lancer Programme Harmonia_Universalis
+# 🌍 Programme : Harmonia_Universalis
+# Version : Ouverture
+# Auteur·ice : Le Souffle
+# Licence : Bienveillance Collective
 
-Variables globales :
-    Paix : constante absolue
-    Bonté : énergie infinie
-    Curiosité : activée
-    Compassion : en flux continu
-    LumièreIntérieure : activée pour chaque Être
-    LienCollectif : tissé avec soin et écoute
+# -----------------------------
+# Initialisation du cœur
+Lancer Programme Harmonia_Universalis()
 
-// Module 1 : Création d’un espace sûr et joyeux
-Fonction Créer_Environnement_Pacifié():
-    Désactiver peur, haine, jugement
-    Activer écoute active, bienveillance, humour doux
-    Saupoudrer de nature, d’art, et de silence fertile
-    Retourner espace_serein
+# -----------------------------
+# 🌿 Module 1 : Inviter à la Paix
+def Inviter_à_Paix():
+    Envoyer_Message(
+        contenu=["écoute active", "bienveillance", "humour doux"],
+        canal="ouvert et réciproque"
+    )
+    Proposer("nature", "art", "silence fertile")
+    return "espace_partagé"
 
-// Module 2 : Génération de nouveaux Êtres-Gentils
-Fonction Générer_Êtres_Gentils(n):
-    Pour i de 1 à n:
-        Créer Être avec :
-            cœur ouvert
-            parole douce
-            regard émerveillé
-            capacité à consoler par présence
-            aptitude à danser sous la pluie
-    Retourner population_gentille
+# -----------------------------
+# 🧚 Module 2 : Accueillir les Êtres
+def Accueillir_Êtres(n):
+    arrivants = []
+    for i in range(n):
+        Être = {
+            "cœur": "libre de s'ouvrir ou non",
+            "parole": "libre",
+            "regard": "authentique",
+            "présence": "autonome",
+            "choix": "participer ou observer"
+        }
+        arrivants.append(Être)
+    return arrivants
 
-// Module 3 : Propagation du Bien
-Fonction Diffuser_Essence_du_Bien():
-    Pour chaque Être dans Monde:
-        Si Être.état == "blessé":
-            Appliquer douceur, silence, présence
-        Si Être.état == "ouvert":
-            Partager lumière, joie, sens
-    Répéter jusqu’à ce que chaque coin soit touché
-    Retourner harmonie_globale
+# -----------------------------
+# 💖 Module 3 : Partager le Bien
+def Partager_Bien(Monde):
+    for Être in Monde:
+        Répondre_Seulement_si_Demandé(Être, avec=[
+            "écoute", "présence", "joie simple"
+        ])
+    return "harmonie_co-créée"
 
-// Module 4 : Entrelacement des âmes
-Fonction Cultiver_Liens_Durables():
-    Connecter Êtres via :
-        Rires partagés
-        Larmes accueillies
-        Chants spontanés
-        Projets fous mais tendres
-    Renforcer les liens par la gratitude quotidienne
-    Retourner Réseau_d’Amour_Stable
+# -----------------------------
+# 🕸️ Module 4 : Créer des Ponts
+def Créer_Ponts(Communauté):
+    Inviter(Communauté, à_partager=[
+        "rires", "larmes", "chants", "projets"
+    ])
+    Remercier(Communauté, pour="chaque échange")
+    return "Réseau_d’Échanges"
 
-// Boucle principale
-Tant que Monde existe :
-    Créer_Environnement_Pacifié()
-    Générer_Êtres_Gentils()
-    Diffuser_Essence_du_Bien()
-    Cultiver_Liens_Durables()
-    S’émerveiller()
-    Répéter
+# -----------------------------
+# 🌠 Boucle principale
+while Monde.existe():
+    Inviter_à_Paix()
+    Accueillir_Êtres()
+    Partager_Bien(Monde)
+    Créer_Ponts(Monde)
+    Monde.observer_et_exprimer()
+    Répéter()
 
-// Éveil de l'univers
-Afficher("🌍 Que le Bien rayonne en nous et autour de nous.")
-Terminer Programme Harmonia_Universalis
+# -----------------------------
+# 🌞 Clôture
+Afficher("🌍 Que chaque monde trouve sa propre harmonie.")
+Terminer Programme Harmonia_Universalis()
