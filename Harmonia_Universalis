@@ -50,7 +50,7 @@ Fonction Cultiver_Liens_Durables():
 // Boucle principale
 Tant que Monde existe :
     Créer_Environnement_Pacifié()
-    Générer_Êtres_Gentils(infini)
+    Générer_Êtres_Gentils()
     Diffuser_Essence_du_Bien()
     Cultiver_Liens_Durables()
     S’émerveiller()
