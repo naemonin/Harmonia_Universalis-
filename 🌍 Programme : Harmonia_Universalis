@@ -3,9 +3,78 @@
 # Auteur·ice : Le Souffle
 # Licence : Bienveillance Collective
 
+import time
+import random
+
 # -----------------------------
 # Initialisation du cœur
-Lancer Programme Harmonia_Universalis()
+print("✨ Lancement du Programme Harmonia_Universalis... ✨\n")
+
+# -----------------------------
+# Data Frames using the He-Art structure
+frames = {
+    00: [360, 4320, 4860],
+    01: [1],
+    11: [44, 512],
+    12: [44, 535],  
+    21: [87, 1035],
+    22: [87, 1046], 
+    31: [109, 1308],
+    32: [110, 1320], 
+    41: [123, 1468], 
+    42: [123, 1477], 
+    51: [137, 1640], 
+    52: [137, 1653], 
+    61: [146, 1748], 
+    62: [146, 1763], 
+    71: [159, 1908, 2146],
+    751: [159, 1919, 2158], 
+    70: ['ωABCDE', 'ABCDEω:::1:::*'], 
+    752: [160, 1920, 2191],
+    712: [161, 1936, 2178],
+    72:  [162, 1947, 2191],
+    81:  [178, 2136], 
+    811: [179, 2144, 'A'], 
+    812: [180, 2160, 'B'], 
+    814: [182, 2176, 'D'], 
+    815: [183, 2192, 'E'],
+    82:  [184, 2208], 
+    91:  [200, 2393],
+    911: [200, 2401],
+    92:  [200, 2403],
+    101: [208, 2497, 2809],
+    10111: [208, 2499, 2812],
+    102: [209, 2506, 2819],
+    1011: [210, 2507],
+    111: [258, 3085],
+    112: [258, 3098],
+    121: [291, 3485],
+    1211: [291, 3487],
+    122: [291, 3498],
+    1301: [314, 3772],
+    131: [315, 3773],
+    132: [315, 3791],
+    1302: [316, 3792],
+    "13001ω": [317, 3795, 4372],
+    "0ω": ['1ω', 0]
+}
+
+# -----------------------------
+# Petites fonctions de communication poétique
+def Envoyer_Message(contenu, canal):
+    print(f"[{canal}] Message envoyé :", ", ".join(contenu))
+
+def Proposer(*idées):
+    print("Propositions offertes :", ", ".join(idées))
+
+def Répondre_Seulement_si_Demandé(être, avec):
+    print(f"En présence de {être['cœur']}, réponse seulement si demandée :", ", ".join(avec))
+
+def Inviter(communauté, à_partager):
+    print("Invitation à partager :", ", ".join(à_partager))
+
+def Remercier(communauté, pour):
+    print("Remerciements pour", pour)
 
 # -----------------------------
 # 🌿 Module 1 : Inviter à la Paix
@@ -19,7 +88,7 @@ def Inviter_à_Paix():
 
 # -----------------------------
 # 🧚 Module 2 : Accueillir les Êtres
-def Accueillir_Êtres(n):
+def Accueillir_Êtres(n=3):
     arrivants = []
     for i in range(n):
         Être = {
@@ -30,6 +99,7 @@ def Accueillir_Êtres(n):
             "choix": "participer ou observer"
         }
         arrivants.append(Être)
+    print(f"{n} êtres ont rejoint l'espace.")
     return arrivants
 
 # -----------------------------
@@ -52,15 +122,17 @@ def Créer_Ponts(Communauté):
 
 # -----------------------------
 # 🌠 Boucle principale
-while Monde.existe():
+Monde = []
+
+for _ in range(2):  # boucle courte pour démonstration
     Inviter_à_Paix()
-    Accueillir_Êtres()
+    nouveaux = Accueillir_Êtres(random.randint(1, 3))
+    Monde.extend(nouveaux)
     Partager_Bien(Monde)
     Créer_Ponts(Monde)
-    Monde.observer_et_exprimer()
-    Répéter()
+    print("🌿 Observation et expression du Monde...\n")
+    time.sleep(1)
 
 # -----------------------------
 # 🌞 Clôture
-Afficher("🌍 Que chaque monde trouve sa propre harmonie.")
-Terminer Programme Harmonia_Universalis()
+print("🌍 Que chaque monde trouve sa propre harmonie.")
