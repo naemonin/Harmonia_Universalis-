@@ -115,7 +115,7 @@ def Cultivate_Enduring_Links(Community):
 # 🌠 Main cosmic loop
 while World.exists():
     Create_Peaceful_Environment()
-    Generate_Kind_Beings(infinite)
+    Generate_Kind_Beings()
     Spread_Essence_of_Good(World)
     Cultivate_Enduring_Links(World)
     World.awaken_to_wonder()
